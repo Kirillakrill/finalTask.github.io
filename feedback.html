@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="row row-menu">
+    <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-demo main-menu">
+        <li class="link-menu">
+            <div>
+                <a href="index.html" class="menu-link">Главная</a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a href="beloved.html" class="menu-link">Любимое</a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <a href="#" class="menu-link">Обратная связь</a>
+            </div>
+        </li>
+    </ul>
+</div>
+    <div class="row content">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-demo form-container">
+            <h3 class="visually-hidden">
+                Обратная связь
+            </h3>
+            <h2 class="write-me">
+                Напишите мне
+            </h2>
+            <form class="appointment-form" method="post" id="form-read-me">
+                <p class="input-name input">
+                    <label for="appointment-name">Ваше имя:</label>
+                    <input id="appointment-name" class="appointment-name" type="text" name="name" placeholder="Имя Фамилия" required>
+                </p>
+                <p class="input-email input" >
+                    <label for="appointment-email">Ваш e-mail:</label>
+                    <input id="appointment-email"
+                           class="appointment-email" type="text" name="email" placeholder="email@example.com" required>
+                </p>
+                <p class="input-text input">
+                    <label for="appointment-text">Текст письма:</label>
+                    <textarea id="appointment-text" class="appointment-text" name="text"
+                              placeholder="В свободной форме" required></textarea>
+                </p>
+                <button type="submit" class="button button-red">
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </div>
+<div class="row footer">
+    <div class="col-xs-6 col-sm-6 col-lg-6 col-demo">
+        <div class="contact-container">
+            <h2 class="visually-hidden">Справочная информация</h2>
+            <p class="author-name">
+                Кирилл Фомин
+            </p>
+            <p class="rights">
+                (с) 2021. Все права защищены.
+            </p>
+        </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-demo">
+        <div class="social-buttons">
+            <h2 class="visually-hidden">Мои социальные сети</h2>
+            <ul class="social-networks-list">
+                <li>
+                    <a href="https://vk.com/akrill.paint" class="social-button vk">
+                        <span>Вконтакте</span>
+                        <i class="fa fa-vk" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://web.facebook.com/akrill.fomin" class="social-button fb">
+                        <span>Facebook</span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/akrill.paint/" class="social-button inst">
+                        <span>Instagram</span>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
