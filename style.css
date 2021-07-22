@@ -197,16 +197,6 @@ textarea:invalid:not(:placeholder-shown) {
 }
 
 /* Container: Media queries */
-@media (max-width: 600px) {
-    .side-menu {
-        font-size: 8px;
-    }
-}
-@media (max-width: 600px) {
-    .side-menu {
-        font-size: 8px;
-    }
-}
 @media (min-width: 768px) {
     .area { width: 750px; }
 }
@@ -251,11 +241,6 @@ textarea:invalid:not(:placeholder-shown) {
     .col-xs-10 { width: 83.33333333%; }
     .col-xs-11 { width: 91.66666667%; }
     .col-xs-12 { width: 100%; }
-    .side-menu { font-size: 20px; }
-    .side-menu-head {
-        visibility: hidden;
-        overflow: hidden;
-    }
 }
 
 
